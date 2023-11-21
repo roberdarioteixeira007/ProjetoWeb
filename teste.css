@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container img:first-child {
+    z-index: 1; /* Coloca a imagem de fundo por trás */
+}
+
+.container img:last-child {
+    position: absolute;
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Centraliza completamente */
+    z-index: 2; /* Coloca a imagem superior na frente */
+}

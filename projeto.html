@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-GLhlTQ8iKu1rXdr85K92j7pDf5/8QzFvN2u7y9fI3eDAIkT+K9STQp4yLzo1+e/P" crossorigin="anonymous">
+
+   <style>
+    footer{
+      background: darkorange;
+      height: 150px;
+    }
+
+
+.top-section {
+    display: flex; /* Cria um flex container para as colunas */ /* Centraliza verticalmente */
+    flex-direction: row;
+    align-items:flex-start;
+    margin: 20px;
+    height: 800px;
+    background-image: url("fundo.JPG");
+    border:6px inset purple ;
+}
+
+.text {
+    flex: 1; /* A primeira coluna ocupa todo o espaço disponível */
+    padding: 20px;
+    vertical-align: text-top;
+    
+}
+
+.image {
+    flex: 1; /* A segunda coluna ocupa todo o espaço disponível */
+    padding: 20px;
+    text-align:right; /* Centraliza a imagem horizontalmente */
+}
+
+img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da coluna */
+    float: left;
+}
+
+header{
+  border: 7px inset purple;
+}
+.container mt-5{
+  border: 6px inset purple;
+}
+footer{
+  border: 6px inset purple ;
+  text-align: center;
+}
+#texto{
+  border: 6px inset purple;
+}
+#texto1{
+  border: 6px inset purple; 
+}
+.text-container{
+    font-family: fantasy;
+}
+
+
+
+   </style>
+  <title>Serviço</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
+            <div class="logo-container col-3">
+                <img src="saruelogo.png" alt="gamba" width="70px" height="70px">
+                <span class="text-container">Sarue Digital</span>
+            </div>
+            <div class="col-6">
+                <button id = "btn1"  class="btn btn-primary">Início</button>
+                <button id = "btn2" class="btn btn-primary">Serviço</button>
+                <button id = "btn3"  class="btn btn-primary">Blog</button>
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                <a href="projetofinal.html"><button id = "btn4"  class="btn btn-primary">Projeto</button></a>
+                <a href="equipe.html"><button id = "btn5" class="btn btn-primary">Equipe</button></a>
+                <a href="index.html"><button id = "btn6" class="btn btn-primary">Portifólio</button></a>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+  
+    <section class="top-section" ></section>
+
+    
+    <section class="container mt-5">
+      <div id = 'row' class="row">
+        <div id = "texto" class="col-md-6">
+          <h2>Performance & Ads</h2>
+    
+          <p>Performance se faz nos pequenos detalhes, tanto<br>estratégicos quanto táticos.  O reduzir o atrito nos<br>mais diversos pontos e saber explorar oportunidades<br>é vital e o  impacto final no resultados do negócio .<br>Somos especialistas em performance e resultados.</p>
+          <button>Fale com um especialista</button>
+        </div>
+        <div id = "imagem1" class="col-md-6">
+          <img src="media1.jpg" alt="1" class="img-fluid">
+        </div>
+      </div>
+    </section>
+
+    <section class="container mt-5">
+      <div id = 'row' class="row">
+        <div id = "texto1" class="col-md-6">
+          <h2>SOCIAL MEDIA</h2>
+          
+          <p>Trabalhamos com diversas redes sociais, adequando <br>sua marca e objetivos com seu público.  Tudo através<br> de um planejamento de comunicação, estudo de <br>cenário e concorrentes e muitos outros inputs. E fique<br> tranquilo, te enviamos os calendários e posts<br> previamente para aprovação e considerações, tudo <br>devidamente organizado e facilitando seu dia a dia!</p>
+        </div>
+        <div id = "imagem1" class="col-md-6">
+          <img src="media.jpg" alt="1" class="img-fluid">
+        </div>
+      </div>
+    </section>
+  
+
+  <footer> <img src = "face.jpg"></footer>
+  
+</body>
+</html>

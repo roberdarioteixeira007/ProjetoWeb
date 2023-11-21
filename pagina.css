@@ -1,0 +1,34 @@
+body{
+    background-color:mediumseagreen; 
+    width: 1000px;/* Define a cor de fundo do corpo do documento */
+  }
+
+header{
+    background-color:white;
+    width: 1000px;
+    border: 2px solid black;
+    
+}
+
+#botao1{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    font-size: inherit;
+    color: blue;        
+}
+
+#top-section{
+    background-color:black;
+    width: 1000px;    
+}
+
+.circulo{
+    
+        width: 100px; /* Largura do círculo */
+        height: 100px; /* Altura do círculo (igual à largura para fazer um círculo perfeito) */
+        background-color: #3498db; /* Cor de fundo do círculo */
+        border-radius: 50%; /* Define o raio para tornar o elemento circular */
+    
+}
